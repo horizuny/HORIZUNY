@@ -1,0 +1,1 @@
+Renombra tu logo a logo.png y colócalo directamente en esta carpeta img/.

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HORIZUNY STUDIO</title>
+    <link rel="icon" type="img/logo.png" href="img/logo.png">
+  <meta name="description" content="HORIZUNY Game Studio - Juegos y aventuras.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="#inicio">
+    <img src="img/logo.png" alt="HORIZUNY">
+    <span>HORIZUNY <small>GAME STUDIO</small></span>
+  </a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav id="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#descargas">Descargas</a>
+    <a href="#donaciones">Donaciones</a>
+    <a href="#nosotros">Nosotros</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= INICIO ================= -->
+<section class="hero" id="inicio">
+  <div class="hero-text">
+    <p class="label">HORIZUNY GAME STUDIO</p>
+    <h1>DESCUBRE<br><span>NUESTROS</span><br>JUEGOS</h1>
+    <p>Una página preparada para mostrar tus juegos. Solo cambia las imágenes, textos y enlaces.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#juegos">VER JUEGOS</a>
+      <a class="btn" href="#descargas">DESCARGAS</a>
+    </div>
+  </div>
+
+  <!-- CAMBIA SOLO ESTA FOTO -->
+  <div class="hero-image">
+    <img src="img/hero.png" alt="Imagen principal del juego">
+  </div>
+</section>
+
+<!-- ================= JUEGOS ================= -->
+<section class="section" id="juegos">
+  <div class="title">
+    <h2>MIS JUEGOS</h2>
+    <span></span>
+  </div>
+
+  <!-- DUPLICA ESTA TARJETA PARA CADA JUEGO -->
+  <div class="games">
+
+    <article class="game-card">
+      <!-- CAMBIA ESTA FOTO -->
+      <img src="img/juegos/juego1.jpg" alt="Juego 1">
+      <div>
+        <p class="label">RPG · AVENTURA</p>
+        <!-- CAMBIA NOMBRE -->
+        <h3>NOMBRE DE MI JUEGO</h3>
+        <!-- CAMBIA DESCRIPCIÓN -->
+        <p>Descripción corta de tu juego.</p>
+        <!-- CAMBIA ESTE LINK -->
+        <a class="game-link" href="juego1.html">VER JUEGO →</a>
+      </div>
+    </article>
+
+    <article class="game-card">
+      <img src="img/juegos/juego2.jpg" alt="Juego 2">
+      <div>
+        <p class="label">ACCIÓN · AVENTURA</p>
+        <h3>MI SEGUNDO JUEGO</h3>
+        <p>Descripción corta de tu juego.</p>
+        <a class="game-link" href="juego2.html">VER JUEGO →</a>
+      </div>
+    </article>
+
+    <article class="game-card">
+      <!-- CAMBIA ESTA FOTO -->
+      <img src="img/juegos/juego3.jpg" alt="Juego 1">
+      <div>
+        <p class="label"> · AVENTURA</p>
+        <!-- CAMBIA NOMBRE -->
+        <h3>NOMBRE DE MI JUEGO</h3>
+        <!-- CAMBIA DESCRIPCIÓN -->
+        <p>Descripción corta de tu juego.</p>
+        <!-- CAMBIA ESTE LINK -->
+        <a class="game-link" href="juego3.html">VER JUEGO →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= DESCARGAS ================= -->
+<section class="download section" id="descargas">
+  <div>
+    <p class="label">CENTRO DE DESCARGAS</p>
+    <h2>DESCARGA<br><span>TU JUEGO</span></h2>
+    <p>Pon aquí los enlaces de descarga de tus juegos.</p>
+  </div>
+
+  <div class="download-box">
+    <h3>NOMBRE DEL JUEGO</h3>
+    <p>Versión 1.0 · PC</p>
+
+    <!-- CAMBIA SOLO EL LINK -->
+    <a class="btn primary" href="downloads/juego-pc.zip" download>
+      ⬇ DESCARGAR PC
+    </a>
+
+    <!-- CAMBIA SOLO EL LINK -->
+    <a class="btn" href="downloads/juego.apk" download>
+      ⬇ DESCARGAR ANDROID
+    </a>
+  </div>
+</section>
+
+<!-- ================= DONACIONES ================= -->
+<section class="donation section" id="donaciones">
+  <div>
+    <p class="label">APOYA EL DESARROLLO</p>
+    <h2>APOYA A<br><span>HORIZUNY</span></h2>
+    <p>Tu apoyo ayuda a continuar desarrollando nuevos juegos y actualizaciones.</p>
+  </div>
+
+  <div class="donation-box">
+    <h3>DONACIONES</h3>
+
+    <!-- CAMBIA SOLO LOS LINKS -->
+    <a class="btn primary" href="TU_LINK_DE_PAYPAL" target="_blank">
+      DONAR CON PAYPAL
+    </a>
+
+    <a class="btn" href="TU_LINK_DE_KOFI" target="_blank">
+      DONAR CON KO-FI
+    </a>
+
+    <a class="btn" href="TU_LINK_DE_OTRO_METODO" target="_blank">
+      OTRO MÉTODO
+    </a>
+  </div>
+</section>
+
+<!-- ================= NOSOTROS ================= -->
+<section class="about section" id="nosotros">
+  <div>
+    <p class="label">SOBRE NOSOTROS</p>
+    <h2>HORIZUNY<br><span>GAME STUDIO</span></h2>
+  </div>
+  <p>
+    Aquí puedes escribir la información de tu empresa, historia,
+    objetivos, equipo y descripción del estudio.
+  </p>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section class="contact section">
+  <p class="label">CONTACTO</p>
+  <h2>¿NECESITAS AYUDA?</h2>
+  <!-- CAMBIA EL CORREO -->
+  <a class="btn primary" href="mailto:horizuny.soporte@gmail.com">CONTACTAR SOPORTE</a>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-brand">
+    <img src="img/logo.png" alt="HORIZUNY">
+    <strong>HORIZUNY</strong>
+    <small>GAME STUDIO</small>
+    <p>Juegos que inspiran,<br>comunidades que crecen.</p>
+  </div>
+
+  <div>
+    <h4>PÁGINA</h4>
+    <a href="#inicio">Inicio</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#descargas">Descargas</a>
+    <a href="#donaciones">Donaciones</a>
+  </div>
+
+  <div>
+    <h4>LEGAL</h4>
+    <!-- PUEDES CAMBIAR ESTOS LINKS -->
+    <a href="legal/terminos.html">Términos</a>
+    <a href="legal/privacidad.html">Privacidad</a>
+    <a href="legal/cookies.html">Cookies</a>
+    <a href="legal/reembolsos.html">Reembolsos</a>
+  </div>
+
+  <div>
+    <h4>REDES</h4>
+    <!-- CAMBIA LOS LINKS -->
+    <a href="TU_LINK_DISCORD">Discord</a>
+    <a href="TU_LINK_YOUTUBE">YouTube</a>
+    <a href="TU_LINK_TIKTOK">TikTok</a>
+    <a href="TU_LINK_X">X / Twitter</a>
+  </div>
+
+  <div class="copyright">
+    © 2026 HORIZUNY Game Studio · Todos los derechos reservados.
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

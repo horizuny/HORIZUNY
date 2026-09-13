@@ -1,0 +1,1 @@
+Pon aquí juego1.jpg, juego2.jpg, etc. Puedes agregar más y duplicar tarjetas en index.html.

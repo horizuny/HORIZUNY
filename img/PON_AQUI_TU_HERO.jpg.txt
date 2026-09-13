@@ -1,0 +1,1 @@
+Renombra tu imagen principal a hero.jpg y colócala directamente en esta carpeta img/.
