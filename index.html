@@ -1,215 +1,447 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HORIZUNY STUDIO</title>
-    <link rel="icon" type="img/logo.png" href="img/logo.png">
-  <meta name="description" content="HORIZUNY Game Studio - Juegos y aventuras.">
+
+  <title>HORIZUNY — Game Studio</title>
+
+  <meta name="description"
+        content="HORIZUNY Game Studio — Creamos juegos, experiencias y mundos para jugadores.">
+
+  <link rel="icon" href="img/logo.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+<!-- ================= HEADER ================= -->
+
 <header class="header">
-  <a class="logo" href="#inicio">
+
+  <a href="#inicio" class="logo">
     <img src="img/logo.png" alt="HORIZUNY">
-    <span>HORIZUNY <small>GAME STUDIO</small></span>
+    <div>
+      <strong>HORIZUNY</strong>
+      <span>GAME STUDIO</span>
+    </div>
   </a>
 
-  <button class="menu-btn" id="menuBtn">☰</button>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+    ☰
+  </button>
 
   <nav id="nav">
     <a href="#inicio">Inicio</a>
     <a href="#juegos">Juegos</a>
     <a href="#descargas">Descargas</a>
-    <a href="#donaciones">Donaciones</a>
     <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
   </nav>
+
 </header>
+
 
 <main>
 
-<!-- ================= INICIO ================= -->
+<!-- ================= HERO ================= -->
+
 <section class="hero" id="inicio">
-  <div class="hero-text">
-    <p class="label">HORIZUNY GAME STUDIO</p>
-    <h1>DESCUBRE<br><span>NUESTROS</span><br>JUEGOS</h1>
-    <p>Una página preparada para mostrar tus juegos. Solo cambia las imágenes, textos y enlaces.</p>
-    <div class="buttons">
-      <a class="btn primary" href="#juegos">VER JUEGOS</a>
-      <a class="btn" href="#descargas">DESCARGAS</a>
+
+  <div class="hero-content">
+
+    <span class="tag">
+      HORIZUNY GAME STUDIO
+    </span>
+
+    <h1>
+      CREAMOS
+      <span>JUEGOS</span>
+      QUE INSPIRAN.
+    </h1>
+
+    <p>
+      Descubre nuestros proyectos, aventuras y experiencias
+      creadas por HORIZUNY.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#juegos" class="btn primary">
+        EXPLORAR JUEGOS
+      </a>
+
+      <a href="#nosotros" class="btn">
+        CONOCER HORIZUNY
+      </a>
+
     </div>
+
   </div>
 
-  <!-- CAMBIA SOLO ESTA FOTO -->
-  <div class="hero-image">
-    <img src="img/hero.png" alt="Imagen principal del juego">
+  <div class="hero-art">
+    <img src="img/hero.png" alt="HORIZUNY Game Studio">
   </div>
+
 </section>
+
 
 <!-- ================= JUEGOS ================= -->
-<section class="section" id="juegos">
-  <div class="title">
-    <h2>MIS JUEGOS</h2>
-    <span></span>
+
+<section class="section games-section" id="juegos">
+
+  <div class="section-heading">
+
+    <div>
+      <span class="tag">NUESTROS PROYECTOS</span>
+
+      <h2>
+        JUEGOS
+        <span>DESTACADOS</span>
+      </h2>
+    </div>
+
+    <p>
+      Explora algunos de los proyectos desarrollados
+      por HORIZUNY Game Studio.
+    </p>
+
   </div>
 
-  <!-- DUPLICA ESTA TARJETA PARA CADA JUEGO -->
-  <div class="games">
+
+  <div class="games-grid">
 
     <article class="game-card">
-      <!-- CAMBIA ESTA FOTO -->
-      <img src="img/juegos/juego1.jpg" alt="Juego 1">
-      <div>
-        <p class="label">RPG · AVENTURA</p>
-        <!-- CAMBIA NOMBRE -->
-        <h3>NOMBRE DE MI JUEGO</h3>
-        <!-- CAMBIA DESCRIPCIÓN -->
-        <p>Descripción corta de tu juego.</p>
-        <!-- CAMBIA ESTE LINK -->
-        <a class="game-link" href="juego1.html">VER JUEGO →</a>
+
+      <div class="game-image">
+        <img src="img/juegos/juego1.jpg" alt="Juego 1">
+        <span>EN DESARROLLO</span>
       </div>
+
+      <div class="game-info">
+
+        <small>ACCIÓN · AVENTURA</small>
+
+        <h3>NOMBRE DEL JUEGO</h3>
+
+        <p>
+          Una nueva aventura desarrollada por HORIZUNY.
+          Descubre el mundo y enfrenta nuevos desafíos.
+        </p>
+
+        <a href="juego1.html">
+          VER PROYECTO →
+        </a>
+
+      </div>
+
     </article>
 
+
     <article class="game-card">
-      <img src="img/juegos/juego2.jpg" alt="Juego 2">
-      <div>
-        <p class="label">ACCIÓN · AVENTURA</p>
+
+      <div class="game-image">
+        <img src="img/juegos/juego2.jpg" alt="Juego 2">
+        <span>PRÓXIMAMENTE</span>
+      </div>
+
+      <div class="game-info">
+
+        <small>RPG · AVENTURA</small>
+
         <h3>MI SEGUNDO JUEGO</h3>
-        <p>Descripción corta de tu juego.</p>
-        <a class="game-link" href="juego2.html">VER JUEGO →</a>
+
+        <p>
+          Una experiencia diferente con nuevos personajes,
+          mundos y aventuras.
+        </p>
+
+        <a href="juego2.html">
+          VER PROYECTO →
+        </a>
+
       </div>
+
     </article>
 
+
     <article class="game-card">
-      <!-- CAMBIA ESTA FOTO -->
-      <img src="img/juegos/juego3.jpg" alt="Juego 1">
-      <div>
-        <p class="label"> · AVENTURA</p>
-        <!-- CAMBIA NOMBRE -->
-        <h3>NOMBRE DE MI JUEGO</h3>
-        <!-- CAMBIA DESCRIPCIÓN -->
-        <p>Descripción corta de tu juego.</p>
-        <!-- CAMBIA ESTE LINK -->
-        <a class="game-link" href="juego3.html">VER JUEGO →</a>
+
+      <div class="game-image">
+        <img src="img/juegos/juego3.jpg" alt="Juego 3">
+        <span>PROYECTO</span>
       </div>
+
+      <div class="game-info">
+
+        <small>ACCIÓN · MULTIJUGADOR</small>
+
+        <h3>TERCER PROYECTO</h3>
+
+        <p>
+          Un proyecto creado para llevar la experiencia
+          de juego a un nuevo nivel.
+        </p>
+
+        <a href="juego3.html">
+          VER PROYECTO →
+        </a>
+
+      </div>
+
     </article>
 
   </div>
+
 </section>
+
 
 <!-- ================= DESCARGAS ================= -->
-<section class="download section" id="descargas">
-  <div>
-    <p class="label">CENTRO DE DESCARGAS</p>
-    <h2>DESCARGA<br><span>TU JUEGO</span></h2>
-    <p>Pon aquí los enlaces de descarga de tus juegos.</p>
+
+<section class="download-section" id="descargas">
+
+  <div class="download-content">
+
+    <span class="tag">
+      CENTRO DE DESCARGAS
+    </span>
+
+    <h2>
+      LLEVA NUESTROS
+      <span>JUEGOS CONTIGO.</span>
+    </h2>
+
+    <p>
+      Descarga las versiones disponibles de nuestros
+      proyectos directamente desde HORIZUNY.
+    </p>
+
   </div>
 
-  <div class="download-box">
-    <h3>NOMBRE DEL JUEGO</h3>
-    <p>Versión 1.0 · PC</p>
 
-    <!-- CAMBIA SOLO EL LINK -->
-    <a class="btn primary" href="downloads/juego-pc.zip" download>
-      ⬇ DESCARGAR PC
-    </a>
+  <div class="download-card">
 
-    <!-- CAMBIA SOLO EL LINK -->
-    <a class="btn" href="downloads/juego.apk" download>
-      ⬇ DESCARGAR ANDROID
-    </a>
+    <div>
+
+      <span>ÚLTIMA VERSIÓN</span>
+
+      <h3>NOMBRE DEL JUEGO</h3>
+
+      <p>
+        Versión 1.0 · Windows · Android
+      </p>
+
+    </div>
+
+    <div class="download-buttons">
+
+      <a href="downloads/juego-pc.zip"
+         class="btn primary"
+         download>
+        ↓ WINDOWS
+      </a>
+
+      <a href="downloads/juego.apk"
+         class="btn"
+         download>
+        ↓ ANDROID
+      </a>
+
+    </div>
+
   </div>
+
 </section>
 
-<!-- ================= DONACIONES ================= -->
-<section class="donation section" id="donaciones">
-  <div>
-    <p class="label">APOYA EL DESARROLLO</p>
-    <h2>APOYA A<br><span>HORIZUNY</span></h2>
-    <p>Tu apoyo ayuda a continuar desarrollando nuevos juegos y actualizaciones.</p>
-  </div>
-
-  <div class="donation-box">
-    <h3>DONACIONES</h3>
-
-    <!-- CAMBIA SOLO LOS LINKS -->
-    <a class="btn primary" href="TU_LINK_DE_PAYPAL" target="_blank">
-      DONAR CON PAYPAL
-    </a>
-
-    <a class="btn" href="TU_LINK_DE_KOFI" target="_blank">
-      DONAR CON KO-FI
-    </a>
-
-    <a class="btn" href="TU_LINK_DE_OTRO_METODO" target="_blank">
-      OTRO MÉTODO
-    </a>
-  </div>
-</section>
 
 <!-- ================= NOSOTROS ================= -->
-<section class="about section" id="nosotros">
-  <div>
-    <p class="label">SOBRE NOSOTROS</p>
-    <h2>HORIZUNY<br><span>GAME STUDIO</span></h2>
+
+<section class="about-section" id="nosotros">
+
+  <div class="about-image">
+    <img src="img/hero.png" alt="HORIZUNY">
   </div>
-  <p>
-    Aquí puedes escribir la información de tu empresa, historia,
-    objetivos, equipo y descripción del estudio.
-  </p>
+
+  <div class="about-content">
+
+    <span class="tag">
+      SOBRE HORIZUNY
+    </span>
+
+    <h2>
+      UN ESTUDIO.
+      <span>UNA VISIÓN.</span>
+    </h2>
+
+    <p>
+      HORIZUNY Game Studio es un proyecto enfocado en crear
+      videojuegos, experiencias y mundos propios.
+    </p>
+
+    <p>
+      Nuestro objetivo es construir proyectos originales,
+      desarrollar nuevas ideas y crear experiencias que
+      puedan disfrutar jugadores de diferentes lugares.
+    </p>
+
+    <a href="#contacto" class="btn primary">
+      CONTACTAR
+    </a>
+
+  </div>
+
 </section>
 
+
+<!-- ================= APOYO ================= -->
+
+<section class="support-section">
+
+  <div>
+
+    <span class="tag">
+      APOYA EL PROYECTO
+    </span>
+
+    <h2>
+      AYUDA A CRECER
+      <span>HORIZUNY.</span>
+    </h2>
+
+    <p>
+      Tu apoyo permite continuar desarrollando nuevos
+      juegos, actualizaciones y proyectos.
+    </p>
+
+  </div>
+
+
+  <div class="support-buttons">
+
+    <a href="TU_LINK_DE_PAYPAL"
+       class="btn primary"
+       target="_blank">
+      PAYPAL
+    </a>
+
+    <a href="TU_LINK_DE_KOFI"
+       class="btn"
+       target="_blank">
+      KO-FI
+    </a>
+
+  </div>
+
+</section>
+
+
 <!-- ================= CONTACTO ================= -->
-<section class="contact section">
-  <p class="label">CONTACTO</p>
-  <h2>¿NECESITAS AYUDA?</h2>
-  <!-- CAMBIA EL CORREO -->
-  <a class="btn primary" href="mailto:horizuny.soporte@gmail.com">CONTACTAR SOPORTE</a>
+
+<section class="contact-section" id="contacto">
+
+  <span class="tag">
+    CONTACTO
+  </span>
+
+  <h2>
+    ¿TIENES ALGUNA
+    <span>PREGUNTA?</span>
+  </h2>
+
+  <p>
+    Ponte en contacto con HORIZUNY para soporte,
+    proyectos o consultas.
+  </p>
+
+  <a href="mailto:horizuny.soporte@gmail.com"
+     class="btn primary">
+    CONTACTAR SOPORTE
+  </a>
+
 </section>
 
 </main>
 
+
 <!-- ================= FOOTER ================= -->
+
 <footer>
-  <div class="footer-brand">
-    <img src="img/logo.png" alt="HORIZUNY">
-    <strong>HORIZUNY</strong>
-    <small>GAME STUDIO</small>
-    <p>Juegos que inspiran,<br>comunidades que crecen.</p>
+
+  <div class="footer-main">
+
+    <div class="footer-brand">
+
+      <img src="img/logo.png" alt="HORIZUNY">
+
+      <h3>HORIZUNY</h3>
+
+      <span>GAME STUDIO</span>
+
+      <p>
+        Juegos que inspiran.<br>
+        Comunidades que crecen.
+      </p>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h4>PÁGINA</h4>
+
+      <a href="#inicio">Inicio</a>
+      <a href="#juegos">Juegos</a>
+      <a href="#descargas">Descargas</a>
+      <a href="#nosotros">Nosotros</a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h4>LEGAL</h4>
+
+      <a href="legal/terminos.html">Términos</a>
+      <a href="legal/privacidad.html">Privacidad</a>
+      <a href="legal/cookies.html">Cookies</a>
+      <a href="legal/reembolsos.html">Reembolsos</a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h4>REDES</h4>
+
+      <a href="TU_LINK_DISCORD">Discord</a>
+      <a href="TU_LINK_YOUTUBE">YouTube</a>
+      <a href="TU_LINK_TIKTOK">TikTok</a>
+      <a href="TU_LINK_X">X</a>
+
+    </div>
+
   </div>
 
-  <div>
-    <h4>PÁGINA</h4>
-    <a href="#inicio">Inicio</a>
-    <a href="#juegos">Juegos</a>
-    <a href="#descargas">Descargas</a>
-    <a href="#donaciones">Donaciones</a>
+
+  <div class="footer-bottom">
+
+    <span>
+      © 2026 HORIZUNY Game Studio
+    </span>
+
+    <span>
+      Todos los derechos reservados.
+    </span>
+
   </div>
 
-  <div>
-    <h4>LEGAL</h4>
-    <!-- PUEDES CAMBIAR ESTOS LINKS -->
-    <a href="legal/terminos.html">Términos</a>
-    <a href="legal/privacidad.html">Privacidad</a>
-    <a href="legal/cookies.html">Cookies</a>
-    <a href="legal/reembolsos.html">Reembolsos</a>
-  </div>
-
-  <div>
-    <h4>REDES</h4>
-    <!-- CAMBIA LOS LINKS -->
-    <a href="TU_LINK_DISCORD">Discord</a>
-    <a href="TU_LINK_YOUTUBE">YouTube</a>
-    <a href="TU_LINK_TIKTOK">TikTok</a>
-    <a href="TU_LINK_X">X / Twitter</a>
-  </div>
-
-  <div class="copyright">
-    © 2026 HORIZUNY Game Studio · Todos los derechos reservados.
-  </div>
 </footer>
 
+
 <script src="js/script.js"></script>
+
 </body>
 </html>
+```
+
